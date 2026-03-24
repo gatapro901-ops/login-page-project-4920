@@ -1,0 +1,31 @@
+
+      <!DOCTYPE html>
+      <html lang='ar' dir='rtl'>
+         <head>
+            <meta charset='UTF-8'>
+            <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+            <title>تسجيل الدخول</title>
+            <link href='https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css' rel='stylesheet'>
+         </head>
+         <body class='bg-[#020617] h-screen flex justify-center items-center'>
+            <div class='bg-[#151515] p-10 rounded-2xl shadow-2xl w-80'>
+               <h1 class='text-amber-500 text-3xl font-bold mb-4 animate-pulse'>تسجيل الدخول</h1>
+               <form>
+                  <div class='mb-4'>
+                     <label for='email' class='block text-amber-500 mb-2'>البريد الإلكتروني</label>
+                     <input type='email' id='email' class='bg-[#2f2f2f] py-2 pl-10 text-amber-500 rounded-lg focus:outline-none focus:ring-amber-500 focus:ring-2 w-full' placeholder='أدخل البريد الإلكتروني'>
+                  </div>
+                  <div class='mb-4'>
+                     <label for='password' class='block text-amber-500 mb-2'>كلمة المرور</label>
+                     <input type='password' id='password' class='bg-[#2f2f2f] py-2 pl-10 text-amber-500 rounded-lg focus:outline-none focus:ring-amber-500 focus:ring-2 w-full' placeholder='أدخل كلمة المرور'>
+                  </div>
+                  <div class='mb-4'>
+                     <label for='confirm-password' class='block text-amber-500 mb-2'>تأكيد كلمة المرور</label>
+                     <input type='password' id='confirm-password' class='bg-[#2f2f2f] py-2 pl-10 text-amber-500 rounded-lg focus:outline-none focus:ring-amber-500 focus:ring-2 w-full' placeholder='أدخل تأكيد كلمة المرور'>
+                  </div>
+                  <button type='submit' class='bg-amber-500 py-2 rounded-lg w-full text-[#020617] font-bold hover:bg-amber-600 transition duration-300 ease-in-out'>تسجيل الدخول</button>
+               </form>
+            </div>
+         </body>
+      </html>
+   
